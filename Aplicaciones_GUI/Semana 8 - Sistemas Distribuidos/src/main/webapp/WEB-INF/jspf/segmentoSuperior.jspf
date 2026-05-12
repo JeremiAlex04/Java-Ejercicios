@@ -1,0 +1,12 @@
+<%@ page pageEncoding="UTF-8" %>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-semibold" href="menuPrincipal.jsp">
+            Sistema distribuido de usuarios
+        </a>
+        <div class="ms-auto">
+            <a class="btn btn-outline-light btn-sm" href="index.jsp">Inicio</a>
+        </div>
+    </div>
+</nav>
+<main class="container py-4">
