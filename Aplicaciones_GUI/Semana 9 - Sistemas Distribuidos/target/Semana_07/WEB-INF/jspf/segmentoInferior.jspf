@@ -1,0 +1,7 @@
+<%@ page pageEncoding="UTF-8" %>
+</main>
+<footer class="border-top bg-white py-3 mt-4">
+    <div class="container text-center text-muted small">
+        Actividad de sistemas distribuidos: sesiones, roles y mantenimiento de usuarios
+    </div>
+</footer>

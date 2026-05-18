@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="5.0"
+         xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd">
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <servlet>
+        <servlet-name>sesionVerificaServlet</servlet-name>
+        <servlet-class>org.example.semana_09.controller.sesionVerificaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sesionVerificaServlet</servlet-name>
+        <url-pattern>/sesionVerificaServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sesionCerrarServlet</servlet-name>
+        <servlet-class>org.example.semana_09.controller.sesionCerrarServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sesionCerrarServlet</servlet-name>
+        <url-pattern>/sesionCerrarServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>mantenimientoUsuarioServlet</servlet-name>
+        <servlet-class>org.example.semana_09.controller.mantenimientoUsuarioServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>mantenimientoUsuarioServlet</servlet-name>
+        <url-pattern>/mantenimientoUsuarioServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>mantenimientoUsuarioServletBuscar</servlet-name>
+        <servlet-class>org.example.semana_09.controller.mantenimientoUsuarioServletBuscar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>mantenimientoUsuarioServletBuscar</servlet-name>
+        <url-pattern>/mantenimientoUsuarioServletBuscar</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmpleadoServlet</servlet-name>
+        <servlet-class>org.example.semana_09.controller.EmpleadoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EmpleadoServlet</servlet-name>
+        <url-pattern>/EmpleadoServlet</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

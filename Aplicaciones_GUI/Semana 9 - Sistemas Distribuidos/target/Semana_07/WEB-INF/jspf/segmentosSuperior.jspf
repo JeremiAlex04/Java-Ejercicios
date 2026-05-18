@@ -1,0 +1,7 @@
+<%@ page pageEncoding="UTF-8" %>
+<div>
+    <div class="miEncabezado">
+        Sistema de Registro de Equipos de Protección Personal (EPP)
+    </div>
+    <div class="miContenido">
+</div>
